@@ -8,12 +8,10 @@ public class A {
 
     public static void main(String[] args) {
 
-        A.ab.add("a");
-        A.ab.add("b");
-        A.ab.add("c");
-        A.ab.add("d");
-
-        A.ab.add("a");
-        System.out.println(A.ab.indexOf("a"));
+        for (int i = 0; i <31 ; i +=6) {
+        }
+        double x = 26;
+        double y = 6;
+        System.out.println(x/y);
     }
 }
